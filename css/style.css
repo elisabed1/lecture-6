@@ -1,0 +1,125 @@
+body{
+	width: 1440px;
+	height: 1793px;
+	flex-shrink: 0;
+	}
+header{
+	width: 100%;
+	border: 2px dotted black;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.container {
+	width: 1178px;
+	margin: 0 auto;
+/*	border: 2px dotted black;*/
+
+} 
+ li {
+	display: inline-block;
+	color: #000;
+	font-family: Roboto sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-right: 35px;
+	}
+nav{
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-top: 21px;
+}
+img{
+	display: inline-block;
+	vertical-align: middle;
+}
+ .sec1{
+ 	margin-top: 76px;
+ }
+ h2{
+ 	color: #000;
+	font-family: Roboto sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 27px;
+ }
+ .card1{
+ 	width: 362px;
+ 	height: 357px;
+	border-radius: 0px 0px 5px 5px;
+	background: #FFF;
+	display: inline-block;
+	vertical-align: text-bottom;
+/*	border: 1px solid black;*/
+ }
+ .card11{
+/* 	border: 2px solid blue;*/
+ 	display: inline-block;
+ 	border-radius: 0px 0px 5px 5px;
+ 	position: relative;
+ }
+ 
+.h31{
+	color: white;
+	font-family: Roboto sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	top: 32%;
+	left: 41%;
+	transform: translate(-80px );
+}
+p{
+	color: #8A8787;
+	font-family: Roboto sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	width: 238px;
+	margin: 68px 87px 11px 37px;
+	}
+.tim{
+	display: inline-block;
+	margin: 11px 11px 40px 40px;
+
+}
+h6{
+	color: #8A8787;
+	font-family: Roboto sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 11px;
+	margin-bottom: 40px;
+}
+.sec2{
+	margin-top: 500px;
+}
+.div2{
+	position: relative;
+	display: inline-block;
+		border: 2px dotted black;
+
+}
+h5{
+	color: #FFF;
+	font-family: Roboto sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50px);
+	}
