@@ -13,7 +13,7 @@ header{
 .container {
 	width: 1178px;
 	margin: 0 auto;
-/*	border: 2px dotted black;*/
+	border: 2px dotted black;
 
 } 
  li {
@@ -54,13 +54,13 @@ img{
 	background: #FFF;
 	display: inline-block;
 	vertical-align: text-bottom;
-/*	border: 1px solid black;*/
+	margin-right: 26px;
  }
  .card11{
-/* 	border: 2px solid blue;*/
  	display: inline-block;
  	border-radius: 0px 0px 5px 5px;
  	position: relative;
+
  }
  
 .h31{
@@ -81,7 +81,7 @@ p{
 	font-size: 10px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: normal;
+	line-height: 20px;
 	width: 238px;
 	margin: 68px 87px 11px 37px;
 	}
@@ -103,13 +103,13 @@ h6{
 	margin-bottom: 40px;
 }
 .sec2{
-	margin-top: 500px;
+	margin-top: 57px;
 }
 .div2{
-	position: relative;
 	display: inline-block;
-		border: 2px dotted black;
-
+	vertical-align: top;
+	border: 2px dotted black;
+	position: relative;
 }
 h5{
 	color: #FFF;
@@ -121,5 +121,15 @@ h5{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50px);
 	}
+.green{
+	margin-top: 42px;
+	margin-right: 45px;
+	margin-bottom: 36px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.div3{
+	display: inline-block;
+	vertical-align: top;
+}
