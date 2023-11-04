@@ -1,11 +1,10 @@
 body{
-	width: 1440px;
-	height: 1793px;
+	height: 1700px;
 	flex-shrink: 0;
+	background: #F1F1F1;
 	}
 header{
 	width: 100%;
-	border: 2px dotted black;
 	position: fixed;
 	top: 0;
 	z-index: 10;
@@ -13,15 +12,12 @@ header{
 .container {
 	width: 1178px;
 	margin: 0 auto;
-	border: 2px dotted black;
-
 } 
- li {
+.li{
 	display: inline-block;
 	color: #000;
 	font-family: Roboto sans-serif;
 	font-size: 11px;
-	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
 	margin-right: 35px;
@@ -107,8 +103,8 @@ h6{
 }
 .div2{
 	display: inline-block;
-	vertical-align: top;
-	border: 2px dotted black;
+	width: 758px;
+	height: 430px;
 	position: relative;
 }
 h5{
@@ -121,6 +117,7 @@ h5{
 	position: absolute;
 	top: 50%;
 	left: 50%;
+	transform: translate(-50% -50%);
 	}
 .green{
 	margin-top: 42px;
@@ -130,6 +127,45 @@ h5{
 	display: inline-block;
 }
 .div3{
+	display: inline-block;
+	vertical-align: top;
+	width: 360px;
+	margin-left: 45px ;
+}
+.last{
+	margin-top: 100px;
+}
+footer{
+		background: #243043;
+		width: 100%;
+		height: 201px;
+		margin-top: 101px;
+		padding: 45px 138px 44px 137px;
+}
+.ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 75px;
+}
+li{
+	color: #818687;
+	font-family: Roboto sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-top: 14px;
+}
+.p1{
+	display: inline;
+	vertical-align: text-top;
+	color: #FFF;
+	font-family: Roboto sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 416px;
+}
+.geol{
 	display: inline-block;
 	vertical-align: top;
 }
